@@ -1,0 +1,149 @@
+@charset "ISO-8859-1";
+
+
+
+h1{
+	color: black;
+	top : 100px;
+	padding-top: 5px;
+	font-size: 50px;
+}
+
+.back-video{
+	position: absolute;
+	right: 0;
+	bottom : 0;
+	top : 0;
+	left : 0;
+	z-index: -1;
+}
+
+nav{
+	width: 1000%;
+	position: absolute;
+	top : 10px;
+	left : 1000px;
+	padding: 70px 8%;
+	display : flex;
+	font-size: 20px;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Arial';
+	font-style: bold;
+	
+}
+
+nav .logo{
+	width: 30px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+}
+
+a:hover {
+  color: black;
+}
+
+input {
+	background: transparent;
+	border-left: 0;
+	border-bottom: 1;
+	border-right: 0;
+	border-top: 0;
+	font-size: 30px;
+	
+}
+
+marquee{
+	font-family: "Arial";
+	color: red;
+}
+
+.inp1 {
+	border-bottom: 2px;
+	border-left: 10px;
+	border-top: 1-px;
+}
+
+
+.buttonss {
+  appearance: none;
+  background : transparent;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonss:hover {
+background : transparent;
+  box-shadow: #a2ebd1 0 -6px 8px inset;
+  transform: scale(1.150);
+}
+
+.buttonss:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .buttonss {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+
+
+table{
+	margin-left : auto;
+	margin-right : auto;
+	
+	font-size: 30px;
+	font-family: "Ubuntu";
+	background-color:rgba(0, 0, 0, 0);
+	background-size: cover;
+	-webkit-background-size : cover;
+	background: transparent;
+	
+}
+
+
+
+
+
+
+p {
+     color: rgba(234, 240, 246, 0.8);
+    font-size: 48pt;
+    text-align: center;
+}
+div {
+    opacity: 0.5;
+} 

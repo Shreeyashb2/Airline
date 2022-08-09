@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+
+
+h3{
+	background-color: yellow;
+}
+
+h4{
+	background-color: cyan;
+}
+
+
+#myheading{
+	background-color: red;
+}
+
+
+.anotherHeading{
+	
+	background-color: lightblue;
+}
+

@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background-image: url('air2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Arial";
+}
+
+h1{
+	color: blue; text-align: center;
+	font-family: "Arial";
+}
+
+h2{
+	color: red; text-align: center;
+	font-family: "Arial";
+}
+
+table{
+	
+	margin-left : 20;
+	background-color: #FFFFE0;
+	position: absolute;
+	font-family: "Arial";
+	
+}
+
+input {
+	background: transparent;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	font-size: 15px;
+	font-family: "Arial";
+	
+}
+
+
+tR{background-color: #FFFFE0;}
+tH{	background-color: #e6e6b5;}
+
+a{
+	text-align: center;
+	font-family: "Arial";
+}
+
+
