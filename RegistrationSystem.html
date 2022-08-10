@@ -4,10 +4,7 @@
 <meta charset="ISO-8859-1">
 <title>Registration</title>
 <link rel="stylesheet" href="registration.css">
-</head>
-
-
-
+</head
 <body>
 <legend>Email Validation in HTML</legend>
 	<form action="SearchFlight.html">
@@ -15,13 +12,7 @@
 		Enter Password <input type="password" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,20}$"  id="upass1" onkeyup="clearPassErr()"><span id="passErr1"></span><br>
 		ReEnter Password <input type="password" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,20}$"  id="upass2" onkeyup="clearPassErr2()"><span id="passErr2"></span><br>
 		<input type="submit" name=submit value="Login" onclick="return validateUser()">
-		
-	
-	
 	</form>
-
-<!--   -->
-
 <script>
 	function validateUser(){
 		var username = document.getElementById("uname").value;
@@ -34,21 +25,20 @@
 			document.getElementById("passErr1").innerHTML = "  Password cannot be blanked";
 			return false;
 		}
-		var password2 = document.getElementById("upass2").value
+		var password2 = document.getElementById("upass2").value;
 		if (password2 == ""){
 			document.getElementById("passErr2").innerHTML = "ReEntered  Password cannot be blanked";
 			return false;
 		}
-		if((password1 != password2)){
+		if((password != password2)){
 			document.getElementById("passErr1").innerHTML = "Passwords do not match";
 			return false;
 		}
-		return false;
+		return true;
 	}
 	function clearUserErr(){document.getElementById("userErr").innerHTML="";}
 	function clearPassErr(){document.getElementById("passErr1").innerHTML="";}
 	function clearPassErr2(){document.getElementById("passErr2").innerHTML="";}
 </script>
-
 </body>
 </html>
