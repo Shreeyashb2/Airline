@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+
+a{
+	color: black;
+	padding: 1.2px;;
+	font-size: 15px;
+	justify-content: end;
+	text-align: center;
+	margin-left: 0.5px;
+	text-decoration: none;
+}
+
+
+
+.navbar{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.hover-underline {
+	display: inline-block;
+	position: relative;
+	color: #f7be4a;
+	padding: 2px;
+}
+
+.hover-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f7be4a;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+}
+
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
